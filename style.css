@@ -33,7 +33,7 @@
 
 }
 .contenedor-img-proyectos:hover{
-    border: 1px solid #ed64bd;
+    border: 2px solid #ed64bd;
     box-shadow: 0 0 10px 0 #ed64bd;
 }
 .link .seleccionado .boton{
@@ -57,6 +57,7 @@
 
 h1{
     font-family: 'Amatic', cursive;
+    font-size: 50px;
 }
 
 .link-navegacion {
@@ -112,9 +113,13 @@ body{
   color: #2e2e31;
 }
 
-@media(max-width:450px){
+@media(max-width:375px){
     .header{
         display:none;
+    }
+    .aside{
+        width:100%;
+ 
     }
 }
 

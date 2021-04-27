@@ -28,6 +28,10 @@
     margin-right: 100px;
     margin-left: 100px;
 }
+.contenedor-img:hover{
+    border: 2px solid #ed64bd;
+    box-shadow: 0 0 10px 0 #ed64bd;
+}
 .contenedor-img-proyectos {
     background-color: white;
     width: 300px;
